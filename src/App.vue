@@ -1,21 +1,21 @@
 <template>
   <el-container class="container">
     <!-- header -->
-    <el-header height="140px">
+    <el-header height="140px" class="header">
       <el-row>
-        <el-col :xs="10" :sm="9" :md="8" :lg="7" :xl="6" class="header-left">
-          <h4>International Conference on<br>Cognitive Systems and<br>Information Processing</h4>
+        <el-col :xs="10" :sm="9" :md="8" :lg="7" :xl="7" class="header-left">
+          <h4>International Conference on<br>Cognitive Systems and Information Processing</h4>
           <h5>December 18-20, 2020</h5>
           <h5>Hengqin, Zhuhai, China</h5>
         </el-col>
-        <el-col :xs="4" :sm="6" :md="8" :lg="10" :xl="12" class="header-middle"></el-col>
-        <el-col :xs="10" :sm="9" :md="8" :lg="7" :xl="6" class="header-right"></el-col>
+        <el-col :xs="4" :sm="6" :md="8" :lg="10" :xl="10" class="header-middle"></el-col>
+        <el-col :xs="10" :sm="9" :md="8" :lg="6" :xl="6" class="header-right"></el-col>
       </el-row>
     </el-header>
     <!-- 主菜单 -->
-    <el-main>
-      <el-menu :default-active="activeIndex" mode="horizontal" @select="handleSelect"
-      background-color="#176998" text-color="#fff" active-text-color="#ffd04b">
+    <el-main class="main">
+      <el-menu :default-active="$route.path" mode="horizontal" @select="handleSelect"
+      background-color="#176998" text-color="#fff" active-text-color="#ffd04b" class="menu">
         <el-menu-item index="/">HOME</el-menu-item>
         <el-menu-item index="/organization">ORGANIZATION</el-menu-item>
         <el-menu-item index="/submissions">SUBMISSIONS</el-menu-item>
@@ -27,19 +27,18 @@
     <!-- 路由页面 -->
     <router-view/>
     <!-- footer -->
-    <el-footer height="100px">
+    <el-footer height="100px" class="footer">
       <div class="copyright">Copyright © ICCSIP 2020. All Rights Reserved.</div>
     </el-footer>
     <!-- 回到顶部 -->
-    <el-backtop></el-backtop>
+    <el-backtop class="backtop"></el-backtop>
   </el-container>
 </template>
 
 <style lang="less">
 @cyan: #176998;
 .container {
-  .el-header {
-    height: 140px;
+  .header {
     padding: 0 50px;
     margin: 10px 0;
     .el-col {
@@ -77,13 +76,13 @@
       background-origin:content-box;
     }
   }
-  .el-main {
+  .main {
     height: 60px;
     padding: 0;
     text-align: center;
     overflow: hidden;
     background-color: @cyan;
-    .el-menu {
+    .menu {
       display: inline-block;
       height: 60px;
       border: 0;
@@ -92,7 +91,7 @@
       }
     }
   }
-  .el-footer {
+  .footer {
     background-color: @cyan;
     overflow: hidden;
     .copyright {
@@ -103,7 +102,7 @@
       color: #ffffff;
     }
   }
-  .el-backtop {
+  .backtop {
     width: 60px;
     height: 60px;
     color: @cyan;
