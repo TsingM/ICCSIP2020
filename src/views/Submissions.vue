@@ -138,7 +138,7 @@ export default {
       ],
       dates: [{
         process: "Paper submission deadline",
-        date: "April 30, 2020"
+        date: "May 30, 2020"
       },{
         process: "Notification of acceptance",
         date: "June 30, 2020"
