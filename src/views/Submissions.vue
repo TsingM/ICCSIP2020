@@ -138,13 +138,13 @@ export default {
       ],
       dates: [{
         process: "Paper submission deadline",
-        date: "May 30, 2020"
+        date: "July 30, 2020"
       },{
         process: "Notification of acceptance",
-        date: "June 30, 2020"
+        date: "Sep. 30, 2020"
       },{
         process: "Camera-ready copy and author registration",
-        date: " Sep. 20, 2020"
+        date: " Oct. 30, 2020"
       }
     ]
     }

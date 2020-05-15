@@ -1,15 +1,15 @@
 <template>
-  <el-container class="container">
+  <el-container class="container" style="min-width: 1200px">
     <!-- header -->
     <el-header height="140px" class="header">
       <el-row>
-        <el-col :xs="22" :sm="9" :md="8" :lg="7" :xl="7" class="header-left">
+        <el-col :xs="7" :sm="7" :md="7" :lg="7" :xl="7" class="header-left">
           <h4>International Conference on<br>Cognitive Systems and Information Processing</h4>
           <h5>December 18-20, 2020</h5>
           <h5>Hengqin, Zhuhai, China</h5>
         </el-col>
-        <el-col :xs="1" :sm="6" :md="8" :lg="10" :xl="10" class="header-middle"></el-col>
-        <el-col :xs="1" :sm="9" :md="8" :lg="7" :xl="7" class="header-right"></el-col>
+        <el-col :xs="10" :sm="10" :md="10" :lg="10" :xl="10" class="header-middle"></el-col>
+        <el-col :xs="7" :sm="7" :md="7" :lg="7" :xl="7" class="header-right"></el-col>
       </el-row>
     </el-header>
     <!-- 主菜单 -->
@@ -61,33 +61,21 @@
         font-size: 18px;
         color: #484848;
       }
-      @media (max-width: 1200px) {
-        h4 {
-          font-size: 18px;
-        }
-        h5 {
-          font-size: 16px;
-        }
-      }
     }
-    @media (min-width: 768px) {
-      .header-middle {
-        background-image: url(./assets/img/banner.png);
-        background-size: 100% auto;
-        background-position: bottom center;
-        background-repeat: no-repeat;
-      }
+    .header-middle {
+      background-image: url(./assets/img/banner.png);
+      background-size: 100% auto;
+      background-position: bottom center;
+      background-repeat: no-repeat;
     }
-     @media (min-width: 768px) {
-      .header-right {
-        padding: 10px;
-        background-image: url(./assets/img/logo.png);
-        background-size: contain;
-        background-position: bottom right;
-        background-repeat: no-repeat;
-        background-origin:content-box;
-      }
-     }
+    .header-right {
+      padding: 10px;
+      background-image: url(./assets/img/logo.png);
+      background-size: contain;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-origin:content-box;
+    }
   }
   .main {
     height: 60px;

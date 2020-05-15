@@ -25,9 +25,9 @@
         <p class="title">Important Dates</p>
         <p class="line"></p>
         <el-steps align-center class="steps">
-          <el-step status="finish" title="May 30, 2020" description="Paper submission deadline" icon="el-icon-document"></el-step>
-          <el-step status="process" title="June 30, 2020" description="Notification of acceptance" icon="el-icon-message-solid"></el-step>
-          <el-step status="process" title="Sep. 20, 2020" description="Camera-ready copy and author registration" icon="el-icon-s-check"></el-step>
+          <el-step status="finish" title="July 30, 2020" description="Paper submission deadline" icon="el-icon-document"></el-step>
+          <el-step status="process" title="Sep. 30, 2020" description="Notification of acceptance" icon="el-icon-message-solid"></el-step>
+          <el-step status="process" title="Oct. 30, 2020" description="Camera-ready copy and author registration" icon="el-icon-s-check"></el-step>
         </el-steps>
       </div>
     </div>
@@ -44,25 +44,18 @@
       }
     }
   }
-  @media (max-width: 768px) {
-    .carousel {
-      display: none;
-    }
-  }
   .date {
     .steps {
       padding: 20px;
       .el-step__icon {
         background-color: #f7f7f7;
       }
-      @media (min-width: 1200px) {
-        .el-step__title {
+      .el-step__title {
           font-size: 28px;
-        }
+      }
       .el-step__description {
         margin-top: 10px;
         font-size: 18px;
-      }
       }
     }
   }
@@ -74,7 +67,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      carHeight: document.body.clientWidth * 9 / 32,
+      carHeight: (document.body.clientWidth > 1200) ? (document.body.clientWidth * 9 / 32) : 337.5,
       carList: [
         {id: 0, name: '澳门塔夜景', idView: require('./../assets/img/car1.jpg')},
         {id: 1, name: '俯瞰效果图', idView: require('./../assets/img/car2.jpg')},
