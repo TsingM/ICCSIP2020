@@ -169,7 +169,7 @@ export default {
           "Qianyi Sun, China"
         ],
         "Registration Chair": [
-          "Qianyi Sun, China"
+          "Jianqin Yin, China"
         ],
         "Local Arrangements Chairs": [
           "Junyu Wang, China",

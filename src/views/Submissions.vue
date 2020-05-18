@@ -5,10 +5,12 @@
         <div class="title">Call for Papers and Special Sessions</div>
         <div class="line"></div>
         <div class="content">
+          <p style="margin-bottom: 0">Submit at: <a href="https://easychair.org/conferences/?conf=iccsip2020" target="_blank">https://easychair.org/conferences/?conf=iccsip2020</a></p>
+          <p>If you don't have an easychair account, please sign up first at:  <a href="https://www.easychair.org/account/signup" target="_blank">https://www.easychair.org/account/signup</a></p>
           <p>Original papers are invited from multidisciplinary perspectives on subject areas including, but not limited to.</p>
           <el-table :data="papers" stripe border size="medium" class="paper">
             <el-table-column prop="cog" label="Cognitive Systems"></el-table-column>
-            <el-table-column prop="info" label="Information Processin"></el-table-column>
+            <el-table-column prop="info" label="Information Processing"></el-table-column>
           </el-table>
           <p>In addition, ICCSIP 2020 Program Committees solicit proposals for special sessions within the technical scopes of the conference. Special sessions, to be organized by internationally recognized experts, aim to bring together researchers in special focused topics. Papers submitted for special sessions are to be peer-reviewed with the same criteria used for the contributed papers. Researchers interested in organizing special sessions are invited to submit formal proposals to ICCSIP 2020. A special session proposal should include the session title, a brief description of the scope and motivation, names, contact information and brief biographical information on the organizers.</p>
         </div>
@@ -50,6 +52,16 @@
 <style lang="less">
   @cyan: #176998;
   .submissions {
+    a {
+      color: #333333;
+      -webkit-tap-highlight-color: #333333;
+    }
+    a:visited {
+      color: #333333;
+    }
+    a:active {
+      color: #333333;
+    }
     .call-for-paper {
       .paper {
         width: 100%;
