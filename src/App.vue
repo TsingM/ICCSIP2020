@@ -20,7 +20,8 @@
         <el-menu-item index="/organization">ORGANIZATION</el-menu-item>
         <el-menu-item index="/submissions">SUBMISSIONS</el-menu-item>
         <el-menu-item index="/program">PROGRAM</el-menu-item>
-        <el-menu-item index="/travel">REGISTRANTION AND TRAVEL</el-menu-item>
+        <el-menu-item index="/registration">REGISTRATION</el-menu-item>
+        <el-menu-item index="/travel">TRAVEL</el-menu-item>
         <el-menu-item index="/contact">CONTACT</el-menu-item>
       </el-menu>
     </el-main>

@@ -19,8 +19,8 @@
         <div class="title">Paper Submission</div>
         <div class="line"></div>
         <div class="content">
-          <p style="margin-bottom: 0">Submit at: <a href="https://easychair.org/conferences/?conf=iccsip2020" target="_blank">https://easychair.org/conferences/?conf=iccsip2020</a></p>
-          <p>If you don't have an easychair account, please sign up first at:  <a href="https://www.easychair.org/account/signup" target="_blank">https://www.easychair.org/account/signup</a></p>
+          <p style="margin-bottom: 0"><b>Submit at: <a href="https://easychair.org/conferences/?conf=iccsip2020" target="_blank">https://easychair.org/conferences/?conf=iccsip2020</a></b></p>
+          <p><b>If you don't have an easychair account, please sign up first at:  <a href="https://www.easychair.org/account/signup" target="_blank">https://www.easychair.org/account/signup</a></b></p>
           <p>Authors are invited to submit full-length papers (6 pages normally and 8 pages maximum) by the submission deadline through the online submission system. Potential organizers are also invited to enlist five or more papers with cohesive topics to form special sessions.</p>
           <p>The submitted paper implies that it is original and has not been submitted under review or is not copyright-protected elsewhere and will be presented by an author if accepted. All submitted papers will be refereed by experts in the field based on the criteria of originality, significance, quality, and clarity. The authors of accepted papers will have an opportunity to revise their papers and take consideration of the referees' comments and suggestions.</p>
           <p>Papers presented at ICCSIP 2020 will be published in the EI-indexed proceedings and some selected top papers will be included in special issues of several SCI-indexed journals. </p>
