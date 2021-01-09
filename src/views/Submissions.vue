@@ -11,6 +11,7 @@
             <el-table-column prop="info" label="Information Processing"></el-table-column>
           </el-table>
           <p>In addition, ICCSIP 2020 Program Committees solicit proposals for special sessions within the technical scopes of the conference. Special sessions, to be organized by internationally recognized experts, aim to bring together researchers in special focused topics. Papers submitted for special sessions are to be peer-reviewed with the same criteria used for the contributed papers. Researchers interested in organizing special sessions are invited to submit formal proposals to ICCSIP 2020. A special session proposal should include the session title, a brief description of the scope and motivation, names, contact information and brief biographical information on the organizers.</p>
+          <p><b>Template of papers: <a href="word.zip" target="_blank">Microsoft Word</a> / <a href="latex.zip" target="_blank">LaTeX</a></b></p>
         </div>
       </div>
     </div>
@@ -21,7 +22,7 @@
         <div class="content">
           <p style="margin-bottom: 0"><b>Submit at: <a href="https://easychair.org/conferences/?conf=iccsip2020" target="_blank">https://easychair.org/conferences/?conf=iccsip2020</a></b></p>
           <p><b>If you don't have an easychair account, please sign up first at:  <a href="https://www.easychair.org/account/signup" target="_blank">https://www.easychair.org/account/signup</a></b></p>
-          <p>Authors are invited to submit full-length papers (6 pages normally and 8 pages maximum) by the submission deadline through the online submission system. Potential organizers are also invited to enlist five or more papers with cohesive topics to form special sessions.</p>
+          <p>Authors are invited to submit full-length papers (15 pages maximum) by the submission deadline through the online submission system. Potential organizers are also invited to enlist five or more papers with cohesive topics to form special sessions.</p>
           <p>The submitted paper implies that it is original and has not been submitted under review or is not copyright-protected elsewhere and will be presented by an author if accepted. All submitted papers will be refereed by experts in the field based on the criteria of originality, significance, quality, and clarity. The authors of accepted papers will have an opportunity to revise their papers and take consideration of the referees' comments and suggestions.</p>
           <p>Papers presented at ICCSIP 2020 will be published in the EI-indexed proceedings and some selected top papers will be included in special issues of several SCI-indexed journals. </p>
           <el-card class="journal">
@@ -149,14 +150,14 @@ export default {
         "IEEE Transactions on Fuzzy Systems"
       ],
       dates: [{
-        process: "Paper submission deadline",
-        date: "July 30, 2020"
+        process: "Paper submission Deadline",
+        date: "Oct. 10, 2020"
       },{
-        process: "Notification of acceptance",
-        date: "Sep. 30, 2020"
+        process: "Notification of Acceptance",
+        date: "Nov. 10, 2020"
       },{
-        process: "Camera-ready copy and author registration",
-        date: " Oct. 30, 2020"
+        process: "Author Registration",
+        date: " Dec. 10, 2020"
       }
     ]
     }

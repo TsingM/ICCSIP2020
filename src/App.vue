@@ -5,7 +5,7 @@
       <el-row>
         <el-col :xs="7" :sm="7" :md="7" :lg="7" :xl="7" class="header-left">
           <h4>International Conference on<br>Cognitive Systems and Information Processing</h4>
-          <h5>December 18-20, 2020</h5>
+          <h5>December 25-27, 2020</h5>
           <h5>Hengqin, Zhuhai, China</h5>
         </el-col>
         <el-col :xs="10" :sm="10" :md="10" :lg="10" :xl="10" class="header-middle"></el-col>
